@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porfolio</title>
+        <link rel = "stylesheet", href = "../../styles.css"></link>
+
+    </head>
+    <body>
+        <article>
+           <h1> Case Study: Employee Attrition </h1> 
+           <section>
+            <h2>Introduction</h2>
+            <p>
+               The historical data has shown that the attrition rate is 27%, which is higher than the average 
+               of 17.4% (Ravio, 2026). This has a negative impact on businesses related productitity, costs, 
+               and loss of repugation. With a high attrition rate, a business loses its talents and employees 
+               with better work experience. Also, it increases costs to businesses to recruit and train new employees. 
+               Additionally, it damages a company's repuation.
+            </p>
+           </section>
+
+           <section>
+            <h2> Attribution </h2>
+                <ul>
+                    <li> Older employees </li>
+                    <li> Employees with higher monthly income </li>
+                    <li> Employees with the higher total working years </li>
+                </ul>
+                <p>
+                    Firstly, 
+                    <img src = "./images/attrition_rate.png" width ="800" height = "400">
+                </p>
+           </section>
+
+           <section>
+            <h2> Causes of Attrition </h2>
+                <ul>
+                    <li> Job roles </li>
+                    <li> Education </li>
+                    <li> Gender </li>
+                    <li> Marrital Status </li>
+                    <li> Job satisfaction </li>
+                    <li> Over-time </li>
+                    <li> Stock option </li>
+                </ul>
+                              <p>
+                    Firstly, 
+                    <img src = "./images/causes.png" width ="800" height = "400">
+                </p>
+           </section>
+
+           <section>
+            <h2> Prediciton Models for Attrition</h2>
+                <ul>
+                    <li> Random forest classification </li>
+                    <li> AdaBoost classification </li>
+                </ul>
+
+           </section>
+
+           <section>
+            <h2> Classification Rates for Random Forest and AdaBoost Classification</h2>
+   
+   
+            <p>
+                    The prediction dashboard has shown that for job satisfication level 1 and tenure of 0, 
+                    random forest performs consistently better than AdaBoost. The precision for random forest 
+                    is 82% and the recall is 82% compared to AdaBoost of 100% and 17% on the precision and
+                    the recall.
+            </p>
+            <p><img src = "./images/classification_10.png" width ="800" height = "400"></p>
+            <p>
+                    Similarly, at the job satisfation level 1 and tenure 1, random forest is still better<br>
+                    than AdaBoost. Its precision and recall are 100% compared to the recision and the recall of 
+                    AdaBoost of 100% and 86%.
+            </p>
+            <p> <img src = "./images/classification_11.png" width ="800" height = "400"></p>
+    
+     <table>
+        <thead>
+            <tr class="border-top">
+                <th rowspan="2" class="text-left" style="vertical-align: bottom;">Job Satisfaction</th>
+                <th rowspan="2" class="text-left" style="vertical-align: bottom;">Tenure</th>
+                <th colspan="4" class="border-bottom">Rate</th>
+            </tr>
+            <tr class="border-bottom">
+                <th colspan="2">Random Forest</th>
+                <th colspan="2">AdaBoost</th>
+            </tr>
+            <tr class="border-bottom">
+                <th></th>
+                <th></th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>Precision</th>
+                <th>Recall</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-left">1</td>
+                <td class="text-left">0</td>
+                <td>0.82</td>
+                <td>0.82</td>
+                <td>1</td>
+                <td>0.12</td>
+            </tr>
+            <tr>
+                <td class="text-left">1</td>
+                <td class="text-left">1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.86</td>
+            </tr>
+            <tr>
+                <td class="text-left">2</td>
+                <td class="text-left">0</td>
+                <td>0.67</td>
+                <td>0.67</td>
+                <td>1</td>
+                <td>0.36</td>
+            </tr>
+            <tr>
+                <td class="text-left">2</td>
+                <td class="text-left">1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.86</td>
+            </tr>
+            <tr>
+                <td class="text-left">3</td>
+                <td class="text-left">0</td>
+                <td>0.92</td>
+                <td>0.92</td>
+                <td>1</td>
+                <td>0.32</td>
+            </tr>
+            <tr>
+                <td class="text-left">3</td>
+                <td class="text-left">1</td>
+                <td>0.86</td>
+                <td>0.86</td>
+                <td>1</td>
+                <td>0.86</td>
+            </tr>
+            <tr>
+                <td class="text-left">4</td>
+                <td class="text-left">0</td>
+                <td>0.92</td>
+                <td>0.92</td>
+                <td>1</td>
+                <td>0.36</td>
+            </tr>
+            <tr class="border-bottom">
+                <td class="text-left">4</td>
+                <td class="text-left">1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.78</td>
+            </tr>
+            <tr class="average-row">
+                <td class="text-left">Average</td>
+                <td></td>
+                <td>0.90</td>
+                <td>0.90</td>
+                <td>1</td>
+                <td>0.57</td>
+            </tr>
+        </tbody>
+    </table>
+
+            <h3>Random Forest Classification Metrics</h3>
+    
+    <table class="academic-table">
+        <thead>
+            <!-- Row 1: Main Category Header -->
+            <tr>
+                <th rowspan="3" valign="middle">Metric</th>
+                <th colspan="2" class="center-header">Proportion</th>
+            </tr>
+            <!-- Row 2: Sub-category Header with its own underline -->
+            <tr>
+                <th colspan="2" class="sub-nested-header">Test</th>
+            </tr>
+            <!-- Row 3: Individual Column Labels -->
+            <tr class="header-bottom-border">
+                <th>Train</th>
+                <th>Test</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="row-label">Accuracy</td>
+                <td>0.97</td>
+                <td>0.83</td>
+            </tr>
+            <tr>
+                <td class="row-label">Precision</td>
+                <td>0.97</td>
+                <td>0.87</td>
+            </tr>
+            <tr>
+                <td class="row-label">Recall</td>
+                <td>0.92</td>
+                <td>0.52</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+            <h3>AdaBoost Classification Metrics</h3>
+    <table class="academic-table">
+        <thead>
+            <!-- Row 1: Main Category Header -->
+            <tr>
+                <th rowspan="3" valign="middle">Metric</th>
+                <th colspan="2" class="center-header">Proportion</th>
+            </tr>
+            <!-- Row 2: Sub-category Header with its own underline -->
+            <tr>
+                <th colspan="2" class="sub-nested-header">Test</th>
+            </tr>
+            <!-- Row 3: Individual Column Labels -->
+            <tr class="header-bottom-border">
+                <th>Train</th>
+                <th>Test</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="row-label">Accuracy</td>
+                <td>0.84</td>
+                <td>0.83</td>
+            </tr>
+            <tr>
+                <td class="row-label">Precision</td>
+                <td>1.00</td>
+                <td>1.00</td>
+            </tr>
+            <tr>
+                <td class="row-label">Recall</td>
+                <td>0.43</td>
+                <td>0.43</td>
+            </tr>
+        </tbody>
+    </table>  
+
+            <h2>Recommendation for the Model to Prediction Attrition </h2>
+            <p> To identify the features and prediction attrition, the random forest classification
+                perform better than AdaBoost.
+            </p>
+
+        </article>
+        
+        <script src = "main.js"> </script>    
+    </body class = "main-content">
+</html>
+
+
