@@ -1,223 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+DATA ANALYTICS | BUSINESS INSIGHTS
 
-    <meta name="description"
-          content="Explore data analytics projects, technical skills, and business insights.">
+Turning Data into Meaningful Decisions
 
-    <title>Data Analytics Portfolio</title>
+I explore data, uncover meaningful patterns, and transform analytical findings into practical business insights. My goal is to help organizations make better decisions through data-driven problem-solving.
 
-    <link rel="stylesheet" href="styles.css">
-</head>
+Technical Toolkit: SQL · Python · R · Excel · Tableau · Power BI
 
-<body id="top">
+Explore My Projects ↓
 
-    <!-- Navigation -->
-    <header class="site-header">
-        <nav class="project-nav">
-            <a href="index.html" class="brand">Data Analytics Portfolio</a>
+About Me
 
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </header>
+Statistics, Technology, and Problem-Solving
 
-    <main>
+I am a data analytics student with a background in statistics and mathematics. I bring analytical thinking and quantitative reasoning to data-related problems.
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <p class="eyebrow">DATA ANALYTICS | BUSINESS INSIGHTS</p>
+My interests include data cleaning, exploratory data analysis, statistical methods, data visualization, and machine learning. I enjoy examining datasets, identifying patterns, and communicating findings in ways that support business decisions.
 
-            <h1>Turning Data into Meaningful Decisions</h1>
+Through hands-on projects, I continue to develop my technical skills and build practical experience in data analytics.
 
-            <p class="hero-description">
-                I explore data, uncover meaningful patterns, and transform
-                analytical findings into practical business insights.
-                My goal is to help organizations make better decisions
-                through data-driven problem-solving.
-            </p>
+Technical Skills
 
-            <div class="project-tags">
-                <span>SQL</span>
-                <span>Python</span>
-                <span>R</span>
-                <span>Excel</span>
-                <span>Tableau</span>
-                <span>Power BI</span>
-            </div>
+Programming & Querying
 
-            <a href="#projects" class="primary-link">
-                Explore My Projects →
-            </a>
-        </section>
+SQL, Python, and R for data manipulation, analysis, and problem-solving.
 
-        <!-- About Section -->
-        <section id="about" class="content-section">
-            <p class="eyebrow" style="color:#0891B2;">ABOUT ME</p>
+Data Visualization
 
-            <h2>Statistics, Technology, and Problem-Solving</h2>
+Tableau, Power BI, and Excel for presenting trends, comparisons, and analytical findings.
 
-            <p>
-                I am a data analytics student with a background in
-                statistics and mathematics. I bring analytical thinking
-                and quantitative reasoning to data-related problems.
-            </p>
+Statistical Analysis
 
-            <p>
-                My interests include data cleaning, exploratory data
-                analysis, statistical methods, data visualization,
-                and machine learning. I enjoy examining datasets,
-                identifying patterns, and communicating findings
-                in ways that support business decisions.
-            </p>
+Descriptive statistics, exploratory data analysis, and statistical reasoning.
 
-            <p>
-                Through hands-on projects, I continue to develop my
-                technical skills and build practical experience in
-                data analytics.
-            </p>
-        </section>
+Data Preparation
 
-        <!-- Skills Section -->
-        <section id="skills" class="content-section">
-            <p class="eyebrow">MY TOOLKIT</p>
+Data cleaning, validation, transformation, and quality assessment.
 
-            <h2>Technical Skills</h2>
+Featured Projects
 
-            <div class="insight-grid">
+These projects demonstrate how I approach analytical questions, explore data, and develop evidence-based recommendations.
 
-                <article class="insight-card">
-                    <h3>Programming & Querying</h3>
-                    <p>
-                        SQL, Python, and R for data manipulation,
-                        analysis, and problem-solving.
-                    </p>
-                </article>
+Project 01: Cyclistic Bike-Share Analysis
 
-                <article class="insight-card">
-                    <h3>Data Visualization</h3>
-                    <p>
-                        Tableau, Power BI, and Excel for presenting
-                        trends, comparisons, and analytical findings.
-                    </p>
-                </article>
+Investigated differences in bike usage between casual riders and annual members to identify potential opportunities for membership growth.
 
-                <article class="insight-card">
-                    <h3>Statistical Analysis</h3>
-                    <p>
-                        Descriptive statistics, exploratory data analysis,
-                        and statistical reasoning.
-                    </p>
-                </article>
+Key areas: Data cleaning, exploratory analysis, ride duration, usage patterns, and business recommendations.
 
-                <article class="insight-card">
-                    <h3>Data Preparation</h3>
-                    <p>
-                        Data cleaning, validation, transformation,
-                        and quality assessment.
-                    </p>
-                </article>
+Tools: R, Tableau, and Excel.
 
-            </div>
-        </section>
+Case study: View Case Study →
 
-        <!-- Projects Section -->
-        <section id="projects" class="content-section">
-            <p class="eyebrow">SELECTED WORK</p>
+Project 02: Employee Attrition
 
-            <h2>Featured Projects</h2>
+This project uses machine learning models, such as Random Forest and AdaBoost, to identify features associated with employee attrition and recommend actions to address attrition risk.
 
-            <p>
-                These projects demonstrate how I approach analytical
-                questions, explore data, and develop evidence-based
-                recommendations.
-            </p>
+Focus: Practical analysis, clear communication, and actionable insights.
 
-            <div class="insight-grid">
+Tools: Python, Power BI, and Excel.
 
-                <article class="stage-card">
-                    
-                    <h3>PROJECT 01: Cyclistic Bike-Share Analysis</h3>
-                    <p>
-                        Investigated differences in bike usage between
-                        casual riders and annual members to identify
-                        potential opportunities for membership growth.
-                    </p>
+Case study: View Case Study →
 
-                    <p>
-                        <strong>Key areas:</strong> Data cleaning,
-                        exploratory analysis, ride duration,
-                        usage patterns, and business recommendations.
-                    </p>
-                    <p> <strong> Tools: </strong>  R, TABLEAU, and EXCEL </p>
-                    <a href="./Project-bikeshare/index.html">
-                        View Case Study →
-                    </a>
-                </article>
+Contact
 
-                <article class="stage-card">
-                    <h3> PROJECT 02: Employee Attrition </h3>
-                    <p>
-                        The project is to use machine learning models such as random forest and AdaBoost
-                        to identify features that affect the attrition and recommend actions needed to address
-                        the attrition riks.
-                    </p>
-                    <p>
-                        <strong>Focus:</strong> Practical analysis,
-                        clear communication, and actionable insights.
-                    </p>
-                    <p> <strong> Tools: </strong>  Python, PowerBI, and EXCEL </p>
-                               <a href="./Project-management/index.html">
-                        View Case Study →
-                    </a>
-                </article>
+Let's Connect
 
-            </div>
-        </section>
+I am interested in opportunities to learn, collaborate, and apply data analytics to real-world problems.
 
-        <!-- Contact Section -->
-        <section id="contact" class="content-section">
-            <p class="eyebrow">CONTACT</p>
+GitHub: Visit my GitHub profile
 
-            <h2>Let's Connect</h2>
+LinkedIn: Connect with me
 
-            <p>
-                I am interested in opportunities to learn, collaborate,
-                and apply data analytics to real-world problems.
-            </p>
-
-            <div class="project-tags">
-                <a href="https://github.com/YOUR-USERNAME"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
-
-                <a href="https://www.linkedin.com/in/touchhun/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn <br>
-                </a>
-
-                <a href="mailto:huntouch@yahoo.com">
-                    Email
-                </a>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <p>Data Analytics Portfolio</p>
-        <a href="#top">Back to top ↑</a>
-    </footer>
-
-</body>
-</html>
+Email: huntouch@yahoo.com
