@@ -14,7 +14,7 @@ I explore data, uncover meaningful patterns, and transform analytical findings i
 
 ## About Me
 
-### Statistics, Technology, and Problem-Solving
+### Data Analytics, Technology, and Problem-Solving
 
 I am a data analytics student with a background in statistics and mathematics. I bring analytical thinking and quantitative reasoning to data-related problems.
 
