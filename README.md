@@ -63,6 +63,13 @@ This project uses machine learning models, such as Random Forest and AdaBoost, t
 - **Focus:** Practical analysis, clear communication, and actionable insights.
 - **Tools:** Python, Power BI, and Excel.
 - **Case study:** [View Case Study →](./Project-management/index.html)
+### PROJECT 03: Healthcare--Heart Disease
+The project is to use machine learning models including the logistic regression and
+random forest to predict the risk of heart disease for an individual with a specific
+health record.
+- **Key areas:** Data Analysis, Model Selection, Data Presentation, and Documenation.
+- **Tools:** R
+- **Case Study:**[View Case Study →](./Project-Healthcare/index.html)
 
 ---
 
